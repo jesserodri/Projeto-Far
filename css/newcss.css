@@ -40,7 +40,9 @@ nav{
     font-family: "Madimi One", sans-serif;
     font-weight: 500;
     font-style:normal;
+    text-shadow: 5px 5px 10px #000000;
 }
+
 
 .nav-wrapper a:hover{
     color: black;
@@ -103,10 +105,12 @@ ul.menu-movel{
     padding-top: 40px;
     font-size: 1.5em;
     text-align: center;
+    
 }
 #cabecalho #croco:hover{
     cursor: pointer;
     border-bottom: 2px solid #CB2828;
+    
     
 }
 #cabecalho #greijo:hover{
@@ -145,6 +149,7 @@ ul.menu-movel{
     position: relative;
     padding-bottom: 50.25%;
     margin-bottom: 50px;
+    box-shadow:5px 10px 18px red;
     
 }
 
@@ -152,6 +157,7 @@ ul.menu-movel{
     position: absolute;
     width: 100%;
     height: 100%;
+    
     
 }
 #continuando h1{
@@ -174,7 +180,7 @@ section .card-item{
 section #croco_video{
     width: 40%;
     margin: 1% 1% 1% 1%;
-    border: 3px solid #CB2828;
+    box-shadow:5px 5px 10px #CB2828;
 }
 
 section #croco_img{
@@ -182,13 +188,13 @@ section #croco_img{
     margin: 1% 7% 1% 7%;
     max-width: 40%;
     height: auto;
-    border: 3px solid #CB2828;
+    box-shadow:5px 5px 10px #CB2828;
 }
 
 section #greijo_video{
     width: 40%;
     margin: 1% 1% 1% 1%;
-    border: 3px solid #004AAD;
+    box-shadow:5px 5px 10px #004AAD;
 }
 
 section #greijo_img{
@@ -196,13 +202,13 @@ section #greijo_img{
     margin: 1% 3% 1% 6%;
     max-width: 40%;
     height: auto;
-    border: 3px solid #004AAD;
+    box-shadow:5px 5px 10px #004AAD;
 }
 
 section #sakamoto_video{
     width: 40%;
     margin: 1% 1% 1% 1%;
-    border: 3px solid #00BF63;
+    box-shadow:5px 5px 10px #00BF63;
 }
 
 section #sakamoto_img{
@@ -210,5 +216,5 @@ section #sakamoto_img{
     margin: 1% 3% 1% 6%;
     max-width: 40%;
     height: auto;
-    border: 3px solid #00BF63;
+    box-shadow:5px 5px 10px #00BF63;
 }
