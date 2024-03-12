@@ -28,6 +28,11 @@ nav{
     margin: auto;
 }
 
+.container2{
+    width: 50%;
+    margin: auto;
+}
+
 .nav-wrapper{
     color: white;
     line-height: 250%;
@@ -169,6 +174,17 @@ section{
     width: auto;
 }
 
+.cards{
+    width: 70%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    
+}
+
 
 section .card-item{ 
     
@@ -176,6 +192,38 @@ section .card-item{
     
     
 }
+
+.cards .card-item{
+    width: 32%;
+}
+
+.cards .card-item{
+    text-align: center;
+    display: block;
+    margin-bottom: 3%;
+    
+}
+
+.cards .card-item img:hover{
+    transform: scale(105%);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card-item figcaption p{
+    margin-bottom: 3%;
+}
+.card-item figcaption a{
+    text-decoration: none;
+    color: blue;
+    font-size: 110%; 
+}
+.card-item figcaption a:hover{
+    font-size: larger;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
 
 section #croco_video{
     width: 40%;
